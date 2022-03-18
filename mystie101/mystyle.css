@@ -1,0 +1,100 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+    color: #333;
+}
+body{
+    
+    background-image: linear-gradient(lightgray,white);
+    background-repeat: no-repeat;
+}
+#page {
+    margin-left:auto;
+    margin-right:auto;
+    width:960px;
+  }
+header{
+    height: 200px;
+    padding:0 0 0 0;
+    
+}
+header .header-top{
+    height:30px;
+    width: 100%;
+    float: left;
+    border-bottom: 5px;
+    border-color: red;
+    color: gray;
+    padding:10px 0 0 0;
+}
+header .header-bottom{
+    width: 100%;
+padding: 50px 0 50px 0;
+float: left;
+
+}
+div{display: block;}
+h1{
+    font-size: 34px;
+    margin-bottom: 5px;
+    font-weight: 500;
+
+}
+h2{
+    font-size: 28px;
+    font-weight: 300;
+}
+/* Utilities*/
+.line
+{
+    background-color: gray;
+    width: 100%;
+    height: 1px;
+    float: left;
+    margin: 2px 0 10px 0;
+}
+.text-center{
+    text-align: center;
+}
+.section-content {
+    margin-left: auto;
+    margin-right: auto;
+    width: 980px;
+}
+.main-contain{
+   position:relative;
+    z-index: 1;
+}
+.main-contain-left{
+    float: left;
+    width: 41%;    
+}
+.main-contain-right{
+    float: left;
+    width: 41%;
+    margin-left: 8%;
+}
+.container{
+  
+ 
+}
+body p{
+    font-size: .90em;
+    padding: 10px 0 10px 0;
+    text-align: justify;
+    line-height: 1.57;
+}
+.first-p{
+    background-color:orange;
+}
+.second-p{
+    background-color: lightblue;
+}
+.second-p ins
+{background-color: green;
+color: black;}
+
+
+/* End Utilities */
+
